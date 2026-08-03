@@ -18,7 +18,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
 const NAV_ITEMS = [
-  { label: "Producttttt", href: "#product" },
+  { label: "Product", href: "#product" },
   { label: "Features", href: "#features" },
   { label: "Pricing", href: "#pricing" },
   { label: "Resources", href: "#resources" },
@@ -51,7 +51,7 @@ export default function Header() {
                 flexShrink: 0,
               }}
             >
-              Logoly
+              Moonshine
             </Typography>
 
             {/* Horizontal nav (desktop) */}
@@ -130,7 +130,7 @@ export default function Header() {
           }}
         >
           <Typography variant="h6" sx={{ fontWeight: 700 }}>
-            Logoly
+            Moonshine
           </Typography>
           <IconButton aria-label="Close navigation menu" onClick={() => setMobileOpen(false)}>
             <CloseIcon />
